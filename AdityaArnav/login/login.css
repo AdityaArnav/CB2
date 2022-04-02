@@ -1,0 +1,145 @@
+*{
+    font-family:"Lineto Brown Sub", "Lineto Brown Light Sub", Verdana, sans-serif;
+}
+
+#sInContainer{
+    /* border:2px solid blue; */
+    width:635px;
+    display:flex;
+    gap:15px;
+    margin:auto;
+    margin-top:70px;
+}
+
+/* *********SIGN IN CSS PART************ */
+#phead{
+    font-size: large;
+}
+#sIndiv{
+    width:300px;
+    height:auto;
+    /* border:2px solid black; */
+    
+}
+#Rstbtn{
+    margin-left: 130px;
+    border:none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    /* display:block; */     
+}
+.Cdiv{
+    display: grid;
+    gap: 10px;
+    margin-bottom:10px;
+}
+.Cdiv .Cinp{
+    width:230px;
+    height:24px;
+    margin-bottom: 10px;
+}
+
+#fpara{
+    margin-top:5px;
+    /* text-align: center; */
+    margin-left:112px;
+
+}
+#submit{
+    margin-top: 10px;
+    width:239px;
+    height:35px;
+    background-color: black;
+    color:white;
+}
+
+#sInGoogle{
+    display:flex;
+    margin-top:-5px;
+    gap:7px;
+    width:239px;
+    height:35px;
+    color:black;
+    background-color:white;
+    border: 2px solid gray;
+}
+#sInGoogle img{
+    height:18px;
+    width:17px;
+    margin-top:5px;
+    /* margin-right:15px; */
+    margin-left:13px;
+    /* margin-top:4px; */
+}
+#sInGoogle .btndiv{
+margin-top: 5px;
+font-size: 14px;
+/* font-weight: 600; */
+}
+
+#plast{
+    font-size: 10px;
+    font-weight: lighter;
+    
+}
+#plast a{
+    color:black;
+}
+
+#middleP{
+    margin-top:65px;
+    height:280px;
+    width:1px;
+    background-color: grey;
+}
+
+.Cdiv > label > div span{
+    font-size:12px;
+    color:rgb(102, 102, 102)
+}
+
+
+
+/*  ************** CREATE AN ACCOUNT PART***********   */
+
+ /* #caccount{
+    border:2px solid red;
+ }  */
+#fcap{
+    margin-left:20px;
+
+}
+
+#caul li{
+    /* font-size: small; */
+    margin-bottom:22px;
+    line-height: 22px;
+    color: #222222;
+    font-size: 12px;
+
+}
+
+#cabtn{
+    margin-top:45px;
+    margin-left:20px;
+    width:239px;
+    height:35px;
+    background-color: black;
+    color: white;
+    /* font-weight: 00; */
+}
+
+#lcap{
+    font-size: 12px;
+    margin-left:18px;
+    margin-top: 30px;
+
+}
+#lcap a{
+    color:#222222;
+}
+/* .fa-google{
+    color:red;
+} */
